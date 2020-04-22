@@ -37,6 +37,6 @@ class Main extends PluginBase implements Listener{
 	
 	public function isMoving(Player $player, int $differticks = 2) : bool{
 		return array_key_exists($player->getId(), $this->players) &&
-        $player->ticksLived - $this->players[$player->getId()] <= $ticks;
+		$player->ticksLived - $this->players[$player->getId()] <= $ticks;
 	}
 }
