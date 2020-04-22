@@ -1,0 +1,6 @@
+---
+name: PlayerMovements
+version: 0.0.1
+main: DinoVNOWO\PlayerMovements\Main
+api: 3.12.0
+...
