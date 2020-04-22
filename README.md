@@ -4,5 +4,7 @@ Extracted from https://forums.pmmp.io/threads/how-to-detect-when-player-not-movi
 Author: DinoVNOwO (Lê Vinh)
 
 API:
+
 isMoving(Player) : bool
+
 getInstance() : PluginBase
