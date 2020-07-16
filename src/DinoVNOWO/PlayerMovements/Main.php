@@ -21,7 +21,7 @@ class Main extends PluginBase implements Listener{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 	}
 	
-	public static function getInstance() : PluginBase{
+	public static function getInstance() : Main{
 		return self::$instance;
 	}
 	
