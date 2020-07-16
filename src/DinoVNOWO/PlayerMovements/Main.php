@@ -31,7 +31,7 @@ class Main extends PluginBase implements Listener{
 			return;
 		}
 		if(!$event->getFrom()->asVector3()->equals($event->getTo()->asVector3())){
-			$this->plugin->players[$player->getId()] = $player->ticksLived;
+			$this->players[$player->getId()] = $player->ticksLived;
 		}
 	}
 	
